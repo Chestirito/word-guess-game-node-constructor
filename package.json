@@ -1,0 +1,23 @@
+{
+  "name": "word-guess-game-node-constructor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chestirito/word-guess-game-node-constructor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chestirito/word-guess-game-node-constructor/issues"
+  },
+  "homepage": "https://github.com/Chestirito/word-guess-game-node-constructor#readme",
+  "dependencies": {
+    "inquirer": "^6.1.0"
+  }
+}
