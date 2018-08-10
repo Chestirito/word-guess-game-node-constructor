@@ -35,8 +35,9 @@ function askLetter(){
     console.log(gameObj.answer.displayWord());
     inquirer.prompt(questions).then(response => {
         //gameObj.answer.compare(response.letter);
-        gameObj.guessedLetters.push(response.letter);
-        determineCorrect(response.letter);
+        var lowerCase = response.letter.toLowerCase();
+        gameObj.guessedLetters.push(lowerCase);
+        determineCorrect(lowerCase);
         determineWinLose();
         console.log("\n");
         askLetter();
